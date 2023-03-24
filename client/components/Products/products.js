@@ -100,6 +100,13 @@ const products = [
     image: img,
     badge: 'top',
   },
+  {
+    id: 16,
+    name: 'Product 16',
+    brand: 'Brand 16',
+    image: img,
+    badge: 'new',
+  },
 ];
 
 export default products;
