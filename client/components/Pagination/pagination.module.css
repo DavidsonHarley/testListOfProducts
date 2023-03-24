@@ -1,0 +1,29 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: #333;
+    background-color: #fff;
+    text-decoration: none;
+  }
+  
+  .pagination a.active {
+    color: #fff;
+    background-color: #333;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .pagination a {
+      padding: 10px 20px;
+      font-size: 18px;
+    }
+  }
