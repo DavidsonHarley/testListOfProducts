@@ -1,0 +1,55 @@
+
+
+.containerProducts{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 695px;
+    overflow: hidden;
+    
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    height: 14rem;
+    align-items: center;
+    margin: 3px;
+    border: 1px solid  rgba(0, 0, 0, 0.175);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .image {
+    border-radius: 10px;
+
+  }
+  
+  .badge {
+    
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+  }
+  
+  .details {
+    padding: 10px;
+  }
+  
+  .name {
+    margin-top: 0;
+  }
+  
+  .brand {
+    margin-bottom: 0;
+  }
