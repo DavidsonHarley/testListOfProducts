@@ -27,5 +27,11 @@ module.exports = {
     'react/button-has-type': 0,
     'import/extensions': 0,
     'import/named': 0,
+    'jsx-a11y/anchor-is-valid': 0,
+    'no-plusplus': 0,
+    'no-unused-expressions': 0,
+    'no-console': 0,
+    'jsx-a11y/click-events-have-key-events': 0,
+    'jsx-a11y/no-static-element-interactions': 0,
   },
 };
