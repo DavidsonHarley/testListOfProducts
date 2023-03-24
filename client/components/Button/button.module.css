@@ -1,0 +1,51 @@
+
+.button {
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .default {
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .success {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .standard {
+    font-size: 16px;
+  }
+  
+  .large {
+    font-size: 20px;
+  }
+  
+  .block {
+    display: block;
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .large {
+      font-size: 18px;
+    }
+  } 
